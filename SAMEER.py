@@ -1,6 +1,9 @@
-import os, time 
-print("CHAKING UPDATE ");time.sleep(1)
-os.system("git pull ")
-print("FIRST JOIN FACEBOOK GROUP ")
-os.system("xdg-open https://www.facebook.com/groups/147435904593672/?ref=share") 
-import sameer
+import os,platform
+os.system('git pull')
+
+bsn=platform.architecture()[0]
+if bsn=="32bit":
+    print('Sorry Update Your Phone...')
+elif bsn=="64bit":
+    #__import__("SAMEER")
+    print('CLOSE ... BYEE')
